@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+p{
+    color:   hsl(227, 12%, 61%);
+    font-size: .9rem;
+    line-height: 1.4;
+}
+
+/* Title section */
+#title{
+    /* background-color: red; */
+   
+}
+
+.container-fluid{
+    padding: 3% 8% 7%;  
+}
+
+/* Nav Bar */
+.nav-link, .menu-btn{
+    color: #333;
+    font-size: .8rem;
+
+}
+.nav-link:hover{
+    cursor: pointer;
+}
+
+.navbar{
+   padding: 0 0 4.5rem;
+}
+
+.nav-menu-list{
+   
+    margin: 0 20%;
+}
+
+.menu-btn{
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    padding: .3rem 1rem;
+    position:relative;
+    z-index: 1;
+}
+
+.background-svg{
+    position: absolute;
+    width: 50%;
+    top: -18%;
+    right: -10%;
+    
+}
+
+.illustration-image{
+    position: relative;
+}
+
+/* Title text */
+h2{
+    font-family: 'Be Vietnam Pro';
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 900;
+    color: hsl(228, 39%, 23%);
+    padding-bottom: 1rem;
+}
+
+.title-text p{
+    font-size: .9rem;
+    line-height: 1.4;
+    padding-right: 14rem;
+    color:   hsl(227, 12%, 61%);
+    padding-bottom: 1rem;
+}
+
+.title-text{
+    margin-top: 5rem;
+}
+
+/* About */
+
+#about{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 0 2rem 0 6rem;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.about-content-two .col-right{
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.number span{
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    font-size: .7rem;
+}
+
+.about-content-one p{
+    padding-right: 14rem;
+}
+
+.about-content-two p{
+    padding-right: 4rem;
+}
