@@ -120,3 +120,137 @@ h2{
 .about-content-two p{
     padding-right: 4rem;
 }
+
+
+/* Testimonial */
+
+#testimonial{
+    padding-bottom: 6rem;
+}
+
+#testimonial h3{
+    text-align: center;
+    padding-bottom: 3rem;
+    word-spacing: .5rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+.card-profile{
+    width: 400px;
+    text-align: center;
+    /* padding:  5px; */
+    background-color:  hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 0px 0px rgba(156, 144, 144, 0.2);
+    
+}
+
+.card-profile p{
+    font-size: .8rem;
+    padding: 0 1.5rem;
+}
+
+.card-profile img{
+    width: 20%;
+    position: relative;
+    top: -40px;
+
+}
+
+.card-profile h4{
+    position: relative;
+    top: -10px;
+    font-size: 1rem;
+}
+
+.testimonial-button{
+    text-align: center;
+}
+
+/* CTA */
+#cta{
+    display: flex;
+    background-color: hsl(12, 88%, 59%);
+    justify-content: space-around;
+    padding: 2% 0;
+
+}
+
+#cta h3{
+    width: 35%;
+    color: hsl(0, 0%, 98%);
+}
+
+#cta button{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(12, 88%, 59%);
+    border-radius: 15px;
+    border: none;
+    padding: .4rem 1.2rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+/* Footer */
+
+#footer{
+    background-color: hsl(233, 12%, 13%);
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0 3% 8%;
+    color: #fff;
+
+}
+
+#footer li{
+    list-style-type: none;
+   padding-bottom: .7rem;
+}
+
+#footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    
+    /* font-size: .8rem; */
+}
+
+.footer-logo{
+    padding-bottom: 3.5rem;
+    filter:  brightness(1) invert(2);
+
+}
+
+.footer-logo img{
+    max-width: 80%;
+    ;
+   
+}
+
+.social-icon{
+    width: 8%;
+    margin-right: .3rem;
+}
+
+input[type="text"]{
+    padding: .5rem 2rem;
+    border-radius: 18px;
+    border: none;
+}
+
+input[type="submit"]{
+    padding: .4rem .9rem;
+    border-radius: 18px;
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    border: none;
+}
+
+.footer-input{
+    padding-bottom: 3.5rem;
+}
